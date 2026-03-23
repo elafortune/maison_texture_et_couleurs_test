@@ -31,7 +31,7 @@ function BeforeAfter() {
       </p>
       <div
         ref={containerRef}
-        className="relative aspect-[16/7] overflow-hidden cursor-col-resize select-none bg-charcoal"
+        className="relative aspect-[16/9] overflow-hidden cursor-col-resize select-none bg-charcoal"
         onMouseDown={(e) => { isDragging.current = true; setPos(calcPos(e.clientX)) }}
         onMouseMove={(e) => { if (isDragging.current) setPos(calcPos(e.clientX)) }}
         onMouseUp={() => { isDragging.current = false }}
