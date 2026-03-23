@@ -28,7 +28,7 @@ const services = [
   {
     label: 'Coiffure & Événement',
     desc: 'Brushing, chignons et coiffures de cérémonie pour toutes vos occasions spéciales.',
-    img: '/IMG_4507.jpeg',
+    img: '/IMG_4507_2.png',
     icon: Star,
     to: '/prestations',
   },
