@@ -1,3 +1,4 @@
+import SEO from '../components/seo/SEO'
 import SoinsHero       from '../components/soins/SoinsHero'
 import PhilosophieSoin  from '../components/soins/PhilosophieSoin'
 import NosRituels       from '../components/soins/NosRituels'
@@ -8,6 +9,11 @@ import CTAFinalSoins    from '../components/soins/CTAFinalSoins'
 export default function SoinsPage() {
   return (
     <>
+      <SEO
+        title="Soins Capillaires Paris 9e — Kératine, Olaplex | Maison Texture"
+        description="Soins hydratants, kératine, Olaplex et bain d'huile pour cheveux abîmés ou colorés. Transformations avant/après. Salon Maison Texture & Couleur, Paris."
+        canonical="/soins"
+      />
       <SoinsHero />        {/* 1 — Hero immersif bleu nuit + Ken Burns                     */}
       <PhilosophieSoin />  {/* 2 — Philosophie split crème / photo macro + 3 piliers       */}
       <NosRituels />       {/* 3 — 5 cartes rituels fond ivoire + stagger + icon pulse     */}

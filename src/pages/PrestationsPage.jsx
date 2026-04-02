@@ -1,3 +1,4 @@
+import SEO from '../components/seo/SEO'
 import PrestationsHero        from '../components/prestations/PrestationsHero'
 import PrestationsStickyNav   from '../components/prestations/PrestationsStickyNav'
 import CoupeSection           from '../components/prestations/CoupeSection'
@@ -14,6 +15,11 @@ export default function PrestationsPage() {
 
   return (
     <>
+      <SEO
+        title="Nos Prestations — Coupe, Couleur & Coiffage | Maison Texture"
+        description="Découvrez nos prestations : coupe femme, balayage, coloration, chignon cérémonie et lissage brésilien. Techniques expertes pour sublimer votre chevelure."
+        canonical="/prestations"
+      />
       <PrestationsHero />
       <PrestationsStickyNav />
       <CoupeSection />
