@@ -1,15 +1,14 @@
 import { useState, useEffect } from 'react'
 
 const navItems = [
-  { id: 'coupe',      label: 'Coupe' },
-  { id: 'couleur',    label: 'Couleur' },
-  { id: 'coiffage',   label: 'Coiffage' },
-  { id: 'techniques', label: 'Techniques spéciales' },
-  { id: 'soins',      label: 'Soins' },
+  { id: 'lissages', label: 'Lissages Ybera' },
+  { id: 'couleur',  label: 'Couleur' },
+  { id: 'coiffage', label: 'Coiffage' },
+  { id: 'coupe',    label: 'Coupe' },
 ]
 
 export default function PrestationsStickyNav() {
-  const [active, setActive] = useState('coupe')
+  const [active, setActive] = useState('lissages')
 
   /* Détection section active au scroll */
   useEffect(() => {

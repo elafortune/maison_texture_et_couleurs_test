@@ -1,3 +1,123 @@
+// ─── Lissages Ybera ───────────────────────────────────────────────────────────
+export const lissagesYbera = [
+  {
+    id: 'discovery',
+    emoji: '💎',
+    name: 'Lissage Discovery',
+    subtitle: 'Le lissage naturel & disciplinant',
+    description: 'Idéal pour celles qui souhaitent détendre leur chevelure tout en conservant du mouvement.',
+    bienfaits: [
+      'Réduit les frisottis',
+      'Détend la fibre capillaire sans la raidir',
+      'Apporte souplesse et brillance',
+      'Facilite le coiffage',
+    ],
+    resultat: 'Des cheveux plus lisses, naturels et faciles à coiffer au quotidien.',
+    tenue: "jusqu'à 3 mois",
+    parfaitPour: 'un effet naturel sans cheveux plats',
+    highlight: false,
+  },
+  {
+    id: 'fashion',
+    emoji: '🌿',
+    name: 'Lissage Fashion',
+    subtitle: 'Le lissage intense & élégant',
+    description: 'Le compromis parfait entre lissage et soin, pour des cheveux visiblement transformés.',
+    bienfaits: [
+      'Lisse efficacement la fibre capillaire',
+      'Réduit considérablement le volume',
+      'Apporte une brillance miroir',
+      'Répare en profondeur',
+    ],
+    resultat: 'Des cheveux lisses, soyeux et parfaitement disciplinés.',
+    tenue: '3 à 5 mois',
+    parfaitPour: 'un rendu lisse durable et structuré',
+    highlight: false,
+  },
+  {
+    id: 'premium',
+    emoji: '👑',
+    name: 'Lissage Brésilien Premium',
+    subtitle: 'Le lissage ultime & réparation extrême',
+    description: 'Le soin le plus complet pour lisser, réparer et sublimer même les cheveux très abîmés.',
+    bienfaits: [
+      'Lissage longue durée',
+      'Réparation intense de la fibre capillaire',
+      "Élimine les frisottis à 100%",
+      'Apporte douceur et brillance exceptionnelle',
+      "Protège contre l'humidité",
+    ],
+    resultat: 'Des cheveux parfaitement lisses, ultra brillants et profondément réparés.',
+    tenue: "jusqu'à 5 mois",
+    parfaitPour: 'cheveux épais, très bouclés ou sensibilisés',
+    highlight: true,
+  },
+]
+
+// ─── Soins Ybera ───────────────────────────────────────────────────────────────
+export const soinsYbera = [
+  {
+    id: 'renaissance',
+    emoji: '💎',
+    name: 'Soin Renaissance Absolue',
+    subtitle: 'Réparation profonde & transformation capillaire',
+    tag: 'Bot capillaire réparateur profond',
+    description: 'Le soin idéal pour les cheveux abîmés, cassants ou sensibilisés par les techniques chimiques et la chaleur.',
+    bienfaits: [
+      'Répare la fibre capillaire en profondeur',
+      'Renforce et stoppe la casse',
+      'Redonne élasticité et vitalité',
+      'Apporte une brillance intense',
+    ],
+    resultat: 'Des cheveux visiblement réparés, plus forts et éclatants de santé.',
+  },
+  {
+    id: 'lumiere',
+    emoji: '🌟',
+    name: 'Soin Lumière Sublime',
+    subtitle: 'Hydratation intense & brillance miroir',
+    tag: 'Soin hydratant et brillance miroir',
+    description: "Un véritable bain d'hydratation pour redonner vie aux cheveux ternes et fatigués.",
+    bienfaits: [
+      'Hydrate en profondeur',
+      'Apporte une brillance miroir',
+      'Assouplit et adoucit la fibre',
+      'Améliore la texture des cheveux',
+    ],
+    resultat: 'Une chevelure lumineuse, soyeuse et pleine de mouvement.',
+  },
+  {
+    id: 'discipline',
+    emoji: '🧘',
+    name: 'Soin Discipline Parfaite',
+    subtitle: 'Lissage naturel & anti-frisottis',
+    tag: 'Lissage Ybera / anti-frisottis',
+    description: 'Parfait pour les cheveux difficiles à coiffer, indisciplinés ou sujets aux frisottis.',
+    bienfaits: [
+      'Réduit durablement les frisottis',
+      'Facilite le coiffage quotidien',
+      'Lisse sans effet figé',
+      "Protège contre l'humidité",
+    ],
+    resultat: 'Des cheveux fluides, disciplinés et élégants jour après jour.',
+  },
+  {
+    id: 'nutrition',
+    emoji: '🌸',
+    name: 'Soin Nutrition Suprême',
+    subtitle: 'Nutrition intense & douceur absolue',
+    tag: 'Soin nourrissant intense',
+    description: 'Le soin parfait pour les cheveux secs, déshydratés ou fragilisés.',
+    bienfaits: [
+      'Nourrit intensément la fibre capillaire',
+      'Répare les longueurs',
+      'Apporte douceur et souplesse',
+      'Protège durablement',
+    ],
+    resultat: 'Des cheveux nourris, doux et faciles à coiffer.',
+  },
+]
+
 // ─── Liens sociaux ────────────────────────────────────────────────────────────
 export const socialLinks = {
   instagram: 'https://www.instagram.com/maisontexture.couleur?igsh=YnF0aTd4ZG1kNmZ4',
