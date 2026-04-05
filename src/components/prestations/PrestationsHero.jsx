@@ -9,7 +9,7 @@ export default function PrestationsHero() {
         <div
           className="ken-burns absolute inset-[-5%] bg-cover bg-center"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1600&q=80')",
+            backgroundImage: "url('/IMG_7205.jpeg')",
             filter: 'blur(7px) brightness(0.90) saturate(0.65)',
           }}
         />

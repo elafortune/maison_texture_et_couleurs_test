@@ -195,7 +195,7 @@ export const prestationCategories = [
     icon: '\u2728',
     description: 'Mises en forme professionnelles pour chaque occasion.',
     photos: [
-      'https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?w=600&q=80',
+      '/IMG_7209.jpeg',
       'https://images.unsplash.com/photo-1560869713-7d0a29430803?w=600&q=80',
       'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&q=80',
     ],

@@ -5,7 +5,7 @@ import { socialLinks } from '../../data/salonData'
 
 /* ── Photos avec aspect ratios variés pour effet Pinterest ── */
 const photos = [
-  { id: 1, img: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600&q=80', label: 'Coupe précision', aspect: 'aspect-[3/4]',  parallax: true },
+  { id: 1, img: '/IMG_7556.jpeg', label: 'Coupe précision', aspect: 'aspect-[3/4]',  parallax: true },
   { id: 2, img: '/IMG_6097_3.png', label: 'Balayage soleil',  aspect: 'aspect-square',  parallax: false },
   { id: 3, img: '/IMG_5926.jpeg', label: 'Coloration rousse', aspect: 'aspect-[2/3]', parallax: true },
   { id: 4, img: '/coiffage_volume.jpeg', label: 'Coiffage volume', aspect: 'aspect-[4/3]',  parallax: false },
