@@ -9,7 +9,7 @@ const photos = [
   { id: 2, img: '/IMG_6097_3.png', label: 'Balayage soleil',  aspect: 'aspect-square',  parallax: false },
   { id: 3, img: '/IMG_5926.jpeg', label: 'Coloration rousse', aspect: 'aspect-[2/3]', parallax: true },
   { id: 4, img: '/coiffage_volume.jpeg', label: 'Coiffage volume', aspect: 'aspect-[4/3]',  parallax: false },
-  { id: 5, img: 'https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?w=600&q=80', label: 'Soin brillance',  aspect: 'aspect-[3/4]',  parallax: false },
+  { id: 5, img: '/IMG_7180.jpeg', label: 'Soin brillance',  aspect: 'aspect-[3/4]',  parallax: false },
   { id: 6, img: '/IMG_5405_2.jpeg', label: 'Lissage kératine', aspect: 'aspect-square', parallax: false },
 ]
 
