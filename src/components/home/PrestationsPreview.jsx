@@ -7,14 +7,14 @@ const services = [
   {
     label: 'Coupe',
     desc: 'Une coupe sur-mesure qui révèle votre personnalité — femme, homme et enfant.',
-    img: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600&q=80',
+    img: '/IMG_6770.jpeg',
     icon: Scissors,
     to: '/prestations',
   },
   {
     label: 'Coloration',
     desc: 'Couleurs vibrantes ou naturelles, balayage, mèches et corrections sur-mesure.',
-    img: '/IMG_5982.jpeg',
+    img: '/IMG_6774.jpeg',
     icon: Palette,
     to: '/prestations',
   },
@@ -28,7 +28,7 @@ const services = [
   {
     label: 'Coiffure & Événement',
     desc: 'Brushing, chignons et coiffures de cérémonie pour toutes vos occasions spéciales.',
-    img: '/IMG_4507_2.png',
+    img: '/IMG_6771.jpeg',
     icon: Star,
     to: '/prestations',
   },
