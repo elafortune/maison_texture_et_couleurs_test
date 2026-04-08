@@ -1,3 +1,103 @@
+// ─── Couleurs & Balayages Prestige ────────────────────────────────────────────
+export const balayagesPrestige = [
+  {
+    id: 'curl-contouring',
+    emoji: '💫',
+    name: 'Curl Contouring',
+    tag: 'Prestation Signature',
+    subtitle: 'Placement stratégique & sublimation du visage',
+    description: "Notre prestation la plus premium. Chaque mèche est placée selon votre coupe, la forme de votre visage et le comportement naturel de vos boucles. Un résultat spectaculaire, entièrement sur-mesure.",
+    bienfaits: [
+      'Analyse morphologique personnalisée',
+      'Placement stratégique mèche par mèche',
+      'Sublimation du volume et de la forme',
+      'Résultat unique et spectaculaire',
+    ],
+    resultat: 'Une transformation qui magnifie votre visage et valorise chaque boucle à la perfection.',
+    featured: true,
+  },
+  {
+    id: 'curl-lumiere',
+    emoji: '✨',
+    name: 'Balayage Curl Lumière',
+    tag: 'Curly Hair Painting',
+    subtitle: 'La technique phare pour boucles & frisés',
+    description: "Application sur cheveux secs, respect total du mouvement naturel. La lumière épouse chaque boucle pour un résultat d'une beauté unique.",
+    bienfaits: [
+      'Application sur cheveux secs',
+      'Placement mèche par mèche',
+      'Lumière naturelle qui suit les boucles',
+      'Résultat ultra personnalisé',
+    ],
+    resultat: 'Une chevelure illuminée qui révèle la beauté naturelle de vos boucles.',
+    featured: false,
+  },
+  {
+    id: 'sun-kissed-curls',
+    emoji: '☀️',
+    name: 'Sun Kissed Curls',
+    tag: 'Balayage Soleil',
+    subtitle: 'Effet retour de vacances naturel',
+    description: "Un éclaircissement léger et lumineux sur les longueurs. Parfait pour les cheveux ondulés à bouclés qui veulent de la lumière sans trop de contraste.",
+    bienfaits: [
+      'Éclaircissement léger et naturel',
+      'Respect des ondulations',
+      'Effet lumineux sur les longueurs',
+      'Idéal pour ondulés à bouclés',
+    ],
+    resultat: 'Des cheveux dorés par le soleil, naturels et pleins de vie.',
+    featured: false,
+  },
+  {
+    id: 'sculpt-curl-color',
+    emoji: '🔥',
+    name: 'Sculpt Curl Color',
+    tag: 'Balayage Sculptant',
+    subtitle: 'Contrastes marqués & relief de boucles',
+    description: "Des contrastes affirmés qui sculptent le volume et donnent du caractère. Pour les cheveux très bouclés ou volumineux qui veulent être mis en valeur.",
+    bienfaits: [
+      'Contrastes marqués et intenses',
+      'Travail sur les volumes',
+      'Relief et profondeur aux boucles',
+      'Parfait pour cheveux très bouclés',
+    ],
+    resultat: 'Une chevelure sculptée, volumineuse et pleine de caractère.',
+    featured: false,
+  },
+  {
+    id: 'glow-curly',
+    emoji: '🌈',
+    name: 'Glow Curly',
+    tag: 'Gloss & Patine',
+    subtitle: 'Neutralisation, reflets & brillance miroir',
+    description: "Reflets sur-mesure — cendré, doré, cuivré — pour une brillance exceptionnelle et une définition parfaite de chaque boucle.",
+    bienfaits: [
+      'Neutralisation des reflets indésirables',
+      'Ton personnalisé (cendré, doré, cuivré)',
+      'Brillance miroir immédiate',
+      'Définition des boucles améliorée',
+    ],
+    resultat: 'Des cheveux lumineux, avec des reflets sublimes et une brillance hors du commun.',
+    featured: false,
+  },
+  {
+    id: 'face-framing-curly',
+    emoji: '🎯',
+    name: 'Face Framing Curly',
+    tag: 'Technique Express',
+    subtitle: 'Illumination ciblée autour du visage',
+    description: "Un éclaircissement précis et stratégique autour du visage pour l'illuminer sans toucher toute la chevelure. Rapide, élégant, efficace.",
+    bienfaits: [
+      'Éclaircissement ciblé autour du visage',
+      'Résultat naturel et subtil',
+      'Illumine sans traiter toute la chevelure',
+      'Séance rapide',
+    ],
+    resultat: 'Un éclat lumineux autour du visage qui illumine tout le regard.',
+    featured: false,
+  },
+]
+
 // ─── Lissages Ybera ───────────────────────────────────────────────────────────
 export const lissagesYbera = [
   {
