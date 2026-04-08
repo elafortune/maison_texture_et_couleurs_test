@@ -26,7 +26,7 @@ export default function CouleursPrestige() {
   }, [])
 
   return (
-    <section id="couleur" className="py-20 md:py-28 bg-onyx scroll-mt-32">
+    <section id="couleur" className="py-20 md:py-28 bg-terracotta scroll-mt-32">
       <div className="max-w-6xl mx-auto px-6">
 
         {/* En-tête */}
