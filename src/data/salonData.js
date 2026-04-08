@@ -1,22 +1,6 @@
 // ─── Couleurs & Balayages Prestige ────────────────────────────────────────────
 export const balayagesPrestige = [
   {
-    id: 'curl-contouring',
-    emoji: '💫',
-    name: 'Curl Contouring',
-    tag: 'Prestation Signature',
-    subtitle: 'Placement stratégique & sublimation du visage',
-    description: "Notre prestation la plus premium. Chaque mèche est placée selon votre coupe, la forme de votre visage et le comportement naturel de vos boucles. Un résultat spectaculaire, entièrement sur-mesure.",
-    bienfaits: [
-      'Analyse morphologique personnalisée',
-      'Placement stratégique mèche par mèche',
-      'Sublimation du volume et de la forme',
-      'Résultat unique et spectaculaire',
-    ],
-    resultat: 'Une transformation qui magnifie votre visage et valorise chaque boucle à la perfection.',
-    featured: true,
-  },
-  {
     id: 'curl-lumiere',
     emoji: '✨',
     name: 'Balayage Curl Lumière',
@@ -31,6 +15,22 @@ export const balayagesPrestige = [
     ],
     resultat: 'Une chevelure illuminée qui révèle la beauté naturelle de vos boucles.',
     featured: false,
+  },
+  {
+    id: 'curl-contouring',
+    emoji: '💫',
+    name: 'Curl Contouring',
+    tag: 'Prestation Signature',
+    subtitle: 'Placement stratégique & sublimation du visage',
+    description: "Notre prestation la plus premium. Chaque mèche est placée selon votre coupe, la forme de votre visage et le comportement naturel de vos boucles. Un résultat spectaculaire, entièrement sur-mesure.",
+    bienfaits: [
+      'Analyse morphologique personnalisée',
+      'Placement stratégique mèche par mèche',
+      'Sublimation du volume et de la forme',
+      'Résultat unique et spectaculaire',
+    ],
+    resultat: 'Une transformation qui magnifie votre visage et valorise chaque boucle à la perfection.',
+    featured: true,
   },
   {
     id: 'sun-kissed-curls',
@@ -118,23 +118,6 @@ export const lissagesYbera = [
     highlight: false,
   },
   {
-    id: 'fashion',
-    emoji: '🌿',
-    name: 'Lissage Fashion',
-    subtitle: 'Le lissage intense & élégant',
-    description: 'Le compromis parfait entre lissage et soin, pour des cheveux visiblement transformés.',
-    bienfaits: [
-      'Lisse efficacement la fibre capillaire',
-      'Réduit considérablement le volume',
-      'Apporte une brillance miroir',
-      'Répare en profondeur',
-    ],
-    resultat: 'Des cheveux lisses, soyeux et parfaitement disciplinés.',
-    tenue: '3 à 5 mois',
-    parfaitPour: 'un rendu lisse durable et structuré',
-    highlight: false,
-  },
-  {
     id: 'premium',
     emoji: '👑',
     name: 'Lissage Brésilien Premium',
@@ -151,6 +134,23 @@ export const lissagesYbera = [
     tenue: "jusqu'à 5 mois",
     parfaitPour: 'cheveux épais, très bouclés ou sensibilisés',
     highlight: true,
+  },
+  {
+    id: 'fashion',
+    emoji: '🌿',
+    name: 'Lissage Fashion',
+    subtitle: 'Le lissage intense & élégant',
+    description: 'Le compromis parfait entre lissage et soin, pour des cheveux visiblement transformés.',
+    bienfaits: [
+      'Lisse efficacement la fibre capillaire',
+      'Réduit considérablement le volume',
+      'Apporte une brillance miroir',
+      'Répare en profondeur',
+    ],
+    resultat: 'Des cheveux lisses, soyeux et parfaitement disciplinés.',
+    tenue: '3 à 5 mois',
+    parfaitPour: 'un rendu lisse durable et structuré',
+    highlight: false,
   },
 ]
 
