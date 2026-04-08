@@ -58,7 +58,7 @@ export default function LissagesYbera() {
               className={`stagger-item relative flex flex-col p-8 transition-all duration-300 ${
                 lissage.highlight
                   ? 'bg-copper shadow-[0_20px_60px_-10px_rgba(166,90,46,0.40)]'
-                  : 'bg-onyx/70 border border-stone/10 hover:border-stone/25'
+                  : 'bg-pearl border border-linen hover:border-copper/30'
               }`}
             >
               {/* Badge recommandé */}
@@ -72,15 +72,15 @@ export default function LissagesYbera() {
 
               {/* Emoji + nom */}
               <div className="text-2xl mb-5">{lissage.emoji}</div>
-              <h3 className="font-serif text-xl font-light text-pearl leading-snug mb-1">
+              <h3 className={`font-serif text-xl font-light leading-snug mb-1 ${lissage.highlight ? 'text-pearl' : 'text-charcoal'}`}>
                 {lissage.name}
               </h3>
-              <p className={`font-sans text-xs tracking-wide mb-5 ${lissage.highlight ? 'text-pearl/65' : 'text-stone/45'}`}>
+              <p className={`font-sans text-xs tracking-wide mb-5 ${lissage.highlight ? 'text-pearl/65' : 'text-slate/55'}`}>
                 {lissage.subtitle}
               </p>
 
               {/* Description */}
-              <p className={`font-sans text-sm leading-relaxed mb-6 ${lissage.highlight ? 'text-pearl/80' : 'text-stone/55'}`}>
+              <p className={`font-sans text-sm leading-relaxed mb-6 ${lissage.highlight ? 'text-pearl/80' : 'text-slate/70'}`}>
                 {lissage.description}
               </p>
 
@@ -93,7 +93,7 @@ export default function LissagesYbera() {
                       strokeWidth={2.5}
                       className={`flex-shrink-0 mt-0.5 ${lissage.highlight ? 'text-pearl' : 'text-copper'}`}
                     />
-                    <span className={`font-sans text-xs leading-relaxed ${lissage.highlight ? 'text-pearl/80' : 'text-stone/60'}`}>
+                    <span className={`font-sans text-xs leading-relaxed ${lissage.highlight ? 'text-pearl/80' : 'text-slate/65'}`}>
                       {b}
                     </span>
                   </li>
@@ -101,16 +101,16 @@ export default function LissagesYbera() {
               </ul>
 
               {/* Résultat */}
-              <div className={`p-3.5 mb-5 ${lissage.highlight ? 'bg-pearl/15' : 'bg-stone/5 border border-stone/10'}`}>
-                <p className={`font-sans text-xs italic leading-relaxed ${lissage.highlight ? 'text-pearl' : 'text-stone/65'}`}>
+              <div className={`p-3.5 mb-5 ${lissage.highlight ? 'bg-pearl/15' : 'bg-linen/60'}`}>
+                <p className={`font-sans text-xs italic leading-relaxed ${lissage.highlight ? 'text-pearl' : 'text-slate/60'}`}>
                   ✨ {lissage.resultat}
                 </p>
               </div>
 
               {/* Durée */}
               <div className="flex items-center gap-2 mb-6">
-                <Clock size={12} className={lissage.highlight ? 'text-pearl/50' : 'text-stone/35'} />
-                <span className={`font-sans text-xs ${lissage.highlight ? 'text-pearl/55' : 'text-stone/40'}`}>
+                <Clock size={12} className={lissage.highlight ? 'text-pearl/50' : 'text-slate/40'} />
+                <span className={`font-sans text-xs ${lissage.highlight ? 'text-pearl/55' : 'text-slate/50'}`}>
                   Tenue : {lissage.tenue}
                 </span>
               </div>
@@ -123,7 +123,7 @@ export default function LissagesYbera() {
                 className={`inline-flex items-center justify-center gap-2 font-sans text-xs tracking-[0.2em] uppercase py-3.5 px-6 transition-colors duration-300 ${
                   lissage.highlight
                     ? 'bg-pearl text-copper hover:bg-linen'
-                    : 'border border-stone/30 text-stone/60 hover:border-copper hover:text-copper'
+                    : 'bg-copper text-pearl hover:bg-charcoal'
                 }`}
               >
                 <CalendarDays size={13} />
